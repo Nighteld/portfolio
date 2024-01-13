@@ -1,5 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   font-family: "Inter", sans-serif;
+  font-family: "Georgia", serif;
+ 
+}
+ */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap");
+
+* {
+  background-color: rgb(200, 221, 177);
+
+  color: #025a4e;
 }
 
+h1 {
+  font-family: "Sacramento", cursive;
+}

@@ -7,15 +7,6 @@ export const publicRoutes = [
   },
 
   {
-    path: "/dashboard",
-    element: <LandingPage />,
-  },
-
-  {
-    path: "/home",
-    element: <LandingPage />,
-  },
-  {
     path: "*",
     element: <h1>Not found</h1>,
   },

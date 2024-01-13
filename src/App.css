@@ -1,3 +1,48 @@
-.nav-item a.active {
+/* .nav-item a.active {
   color: red !important;
+} */
+.hero-section {
+  padding: 60px;
+}
+.navbar-nav {
+  margin: auto;
+  font-size: larger;
+  font-family: "Merriweather", serif;
+}
+
+.title-heading {
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-family: "Sacramento", cursive;
+  font-size: 135px;
+}
+
+.heading {
+  font-family: "Sacramento", cursive;
+}
+
+.span-block {
+  display: block;
+}
+.star-heading {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.star-heading-two {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+li .active {
+  border-radius: 50px;
+  background: #eff2d8;
+  width: 100px;
+  text-align: center;
 }

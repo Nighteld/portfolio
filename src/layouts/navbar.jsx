@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom/dist";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -16,21 +16,31 @@ const NavBar = () => {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
+
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink to="/dashboard" className="nav-link">
+              <NavLink to="/" className="nav-link">
                 Work
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/home" className="nav-link">
-                Link
+              <NavLink to="/about" className="nav-link">
+                About
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/services" className="nav-link">
+                Services
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/experiences" className="nav-link">
+                Experiences
+              </NavLink>
+            </li>
+
+
           </ul>
         </div>
       </div>

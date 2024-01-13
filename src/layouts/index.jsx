@@ -5,7 +5,7 @@ const MainLayOut = ({ children }) => {
   return (
     <React.Fragment>
       <NavBar />
-      {children}
+      <section class="container">{children}</section>
     </React.Fragment>
   );
 };
