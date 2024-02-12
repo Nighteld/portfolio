@@ -43,6 +43,7 @@
 li .active {
   border-radius: 50px;
   background: #eff2d8;
-  width: 100px;
+  width: 100%;
   text-align: center;
+  padding: 10px;
 }
